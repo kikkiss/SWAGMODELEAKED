@@ -1,6 +1,5 @@
 local ADMINS = {
-    2568854753,
-    2267385097,
+
 
 }
 local MODS = {
@@ -23,7 +22,9 @@ local MONEYNAME = {
 
 }
 local CUSTOMWINNER = {
-
+    1941156348,
+    2574423810,
+    
 }
 
 local formatNumber = (function(n)
@@ -56,7 +57,7 @@ local function checkswag()
                         end
                     elseif table.find(CUSTOMWINNER, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😳]' .. game.Players[v.Name].DisplayName)
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🏳️‍🌈]' .. game.Players[v.Name].DisplayName)
                         end
                     elseif table.find(NOEMOJI, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
