@@ -10,7 +10,7 @@ local STARS = {
   
 }
 local BOOSTERS = {
-
+    2846701889,
     
 }
 local NOEMOJI = {
