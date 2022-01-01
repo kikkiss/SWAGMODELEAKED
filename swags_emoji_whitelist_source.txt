@@ -3,6 +3,10 @@ local ADMINS = {
 
 }
 local MODS = {
+    1941156348,
+    2574423810,
+
+
 
 }
 local STARS = {
@@ -22,8 +26,7 @@ local MONEYNAME = {
 
 }
 local CUSTOMWINNER = {
-    1941156348,
-    2574423810,
+
     
 }
 
