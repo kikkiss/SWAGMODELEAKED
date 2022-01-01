@@ -4,7 +4,7 @@ local ADMINS = {
 
 }
 local MODS = {
-    421042392,
+
 }
 local STARS = {
   
@@ -14,7 +14,9 @@ local BOOSTERS = {
     
 }
 local NOEMOJI = {
-
+    421042392,
+    2568854753,
+    2267385097,
 
 }
 local MONEYNAME = {
