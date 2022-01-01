@@ -1,6 +1,6 @@
 local ADMINS = {
-    2568854753, -- Lerkermer
-    2267385097, -- w_6u
+    2568854753,
+    2267385097,
 
 }
 local MODS = {
