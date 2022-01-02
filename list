@@ -9,6 +9,11 @@ ModIDS = {
     [1795086941] = true, -- kikki
     [1820887561] = true, -- leo
     [2574427546] = true, -- ler
+    [2742649649] = true, -- ac
+    
+    
+    
+    
 }
 
 return ModIDS
