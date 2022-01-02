@@ -8,7 +8,9 @@ local MODS = {
     2574423810, 
     2632894176, 
     2742649649,
-
+    2568854753,
+    
+    
 }
 local STARS = {
     1820887561,
@@ -27,9 +29,10 @@ local VERIFICATION = {
     
 }
 local NOEMOJI = {
-    421042392, 
-    2568854753, 
+    421042392,  
     2267385097, 
+    
+   
 
 }
 local MONEYNAME = {
@@ -66,7 +69,7 @@ local function checkswag()
                         end
                     elseif table.find(MODS, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌈]' .. game.Players[v.Name].DisplayName)
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🏳️‍🌈⃠ ]' .. game.Players[v.Name].DisplayName)
                         end
                     elseif table.find(CUSTOMWINNER, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
@@ -404,7 +407,7 @@ local function checkswag()
                         end
                     elseif table.find(MODS, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌈]' .. game.Players[v.Name].DisplayName)
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🏳️‍🌈⃠ ]' .. game.Players[v.Name].DisplayName)
                         end
            
                     elseif table.find(STARS, plrID) then
