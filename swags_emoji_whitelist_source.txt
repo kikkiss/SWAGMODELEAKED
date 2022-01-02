@@ -5,28 +5,15 @@ local ADMINS = {
 local MODS = {
     1941156348, 
     2574423810, 
-    2632894176,  
-    989552915,
+    2632894176, 
+
 
 }
 local STARS = {
-    413696417,
-    
+  
 }
-
-local OLD = {
-    2758407707, 
-    2574427546, 
-}
-
-local CROWN = {
-
-
-}
-
 local BOOSTERS = {
 
-    1992992699, 
     
 }
 local NOEMOJI = {
@@ -255,7 +242,7 @@ local function checkswag()
                         end
                     elseif table.find(BOOSTERS, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[i am gay / trans / emo / pussy]')
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. game.Players[v.Name].DisplayName)
                         end
                         
                     elseif plrID == 1688589423 then
@@ -404,16 +391,6 @@ local function checkswag()
                     elseif table.find(MODS, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌈]' .. game.Players[v.Name].DisplayName)
-                        end
-           
-                    elseif table.find(CROWNS, plrID) then
-                        if v:FindFirstChildWhichIsA('Humanoid') then
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. game.Players[v.Name].DisplayName)
-                        end
-           
-                    elseif table.find(OLD, plrID) then
-                        if v:FindFirstChildWhichIsA('Humanoid') then
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👴🏻]' .. game.Players[v.Name].DisplayName)
                         end
            
                     elseif table.find(STARS, plrID) then
