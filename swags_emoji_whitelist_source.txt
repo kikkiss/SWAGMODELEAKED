@@ -15,6 +15,7 @@ local STARS = {
 
 local OLD = {
     2758407707, -- STOJAN 
+    2574427546, -- ler
 }
 
 local CROWN = {
