@@ -1,5 +1,6 @@
 local ADMINS = {
-    1738907609,
+
+
 
 }
 local MODS = {
@@ -11,7 +12,7 @@ local MODS = {
 }
 local STARS = {
     1820887561,
-  
+    1738907609, 
 }
 local BOOSTERS = {
     2574427546,
