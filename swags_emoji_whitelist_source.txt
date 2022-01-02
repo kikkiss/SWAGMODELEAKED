@@ -13,7 +13,7 @@ local STARS = {
   
 }
 local BOOSTERS = {
-
+    2614621747,
     
 }
 local NOEMOJI = {
@@ -242,7 +242,7 @@ local function checkswag()
                         end
                     elseif table.find(BOOSTERS, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. game.Players[v.Name].DisplayName)
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💩]' .. game.Players[v.Name].DisplayName)
                         end
                         
                     elseif plrID == 1688589423 then
