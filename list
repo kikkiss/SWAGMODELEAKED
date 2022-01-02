@@ -7,6 +7,8 @@ ModIDS = {
     [2632894176] = true, -- ac
     [2758407707] = true, -- ac
     [1795086941] = true, -- kikki
+    [1820887561] = true, -- leo
+    
 }
 
 return ModIDS
