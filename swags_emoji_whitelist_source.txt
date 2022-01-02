@@ -13,13 +13,14 @@ local STARS = {
   
 }
 local BOOSTERS = {
-    1191018862, 
+    
     
     
 }
 
 local VERIFICATION = {
-
+    1191018862, 
+    
     
     
 }
