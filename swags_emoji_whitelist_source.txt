@@ -19,7 +19,8 @@ local OLD = {
 }
 
 local CROWN = {
-    421042392, -- mg
+
+
 }
 
 local BOOSTERS = {
