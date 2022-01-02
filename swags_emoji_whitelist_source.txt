@@ -17,6 +17,12 @@ local BOOSTERS = {
     
     
 }
+
+local VERIFICATION = {
+
+    
+    
+}
 local NOEMOJI = {
     421042392, 
     2568854753, 
@@ -242,6 +248,10 @@ local function checkswag()
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🤡🤡]' .. game.Players[v.Name].DisplayName) 
                         end
                     elseif table.find(BOOSTERS, plrID) then
+                        if v:FindFirstChildWhichIsA('Humanoid') then
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👦🏿]' .. game.Players[v.Name].DisplayName)
+                        end
+                    elseif table.find(VERIFICATION, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[☑️]' .. game.Players[v.Name].DisplayName)
                         end
